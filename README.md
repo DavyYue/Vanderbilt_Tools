@@ -1,10 +1,10 @@
-# Personal Website
+# Vanderbilt Tools Website
 
-This site highlights some of my work as a software engineer and can be found [here](https://www.davyyue.com). 
+This site provides useful tools for the average Vanderbilt Unergrad and can be found [here](davyyue.github.io/Vanderbilt_Tools). 
 Please reach out through the site with any questions you might have.
 
 
-Copyright 2016-2018 Davy Yue
+Copyright Davy Yue
 
 # Credits:
 
