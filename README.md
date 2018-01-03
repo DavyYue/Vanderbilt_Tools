@@ -1,6 +1,6 @@
 # Vanderbilt Tools Website
 
-This site provides useful tools for the average Vanderbilt Unergrad and can be found [here](davyyue.github.io/Vanderbilt_Tools). 
+This site provides useful tools for the average Vanderbilt Unergrad and can be found [here](https://www.davyyue.com/Vanderbilt_Tools). 
 Please reach out through the site with any questions you might have.
 
 
