@@ -1976,7 +1976,7 @@
 		button.special,
 		.button.special {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #414141 !important;
 		}
 
 			input[type="submit"].special:after,
@@ -2009,7 +2009,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: rgba(255, 255, 255, 0.356) !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -2406,7 +2406,7 @@
 		}
 
 	select option {
-		background-color: #312450;
+		background-color: #474350;
 		color: #ffffff;
 	}
 
@@ -2482,7 +2482,7 @@
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #b7b04e;
 			content: '\f00c';
 		}
 
@@ -2552,7 +2552,7 @@
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #4e4e4e;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -3256,6 +3256,10 @@
 			background-color: #272727;
 		}
 
+		.wrapper.style1-alt {
+			background: #353535;
+		}
+
 		.wrapper.style1 {
 			background: linear-gradient(to bottom right, rgb(78, 78, 78), rgb(0, 0, 0));
 		}
@@ -3372,7 +3376,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #0a0022;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3515,7 +3519,7 @@
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: rgba(255, 255, 255, 0.63);
 	}
 
 	#header + #wrapper + #footer > .inner {
@@ -3860,7 +3864,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #b7b54e;
 						}
 
 		}
