@@ -3756,30 +3756,31 @@
 				border-radius: 0.2em;
 				bottom: 0;
 				content: '';
-				height: 0.2em;
+				height: 0.3em;
 				position: absolute;
 				right: 0;
 				width: 100%;
 			}
 
 			#sidebar nav a:before {
-				background: #4e29a3;
+				background: #fcea4d;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #fff19f, #ffdf28);
+				background-image: -webkit-linear-gradient(to right, #fff19f, #ffdf28);
+				background-image: -ms-linear-gradient(to right, #fff19f, #ffdf28);
+				background-image: linear-gradient(to right, #fff19f, #ffdf28);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
 				transition: max-width 0.2s ease;
+				height:.6em;
 				max-width: 0;
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(255, 255, 255, 0.801);
 			}
 
 			#sidebar nav a.active {
