@@ -1723,7 +1723,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: #303030;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -3139,7 +3139,7 @@
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(19, 38, 66, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3478,7 +3478,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #0a0022;
+		background-color: #3a3a3a;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
