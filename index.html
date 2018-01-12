@@ -322,30 +322,29 @@
 								<table class="default" style="text-align:left">
 									<h2 style="font-size:1.3em;text-align:left;font-weight:bold;font-stretch:expanded;text-align:center;">
 										Easy Pub Order Tracking</h2>
-									<thead>
-										<tr style="font-size:1.2em">
-											<th>Category</th>
-											<th>Name</th>
-											<th>Description</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>All Packages</td>
-											<td>Home Page</td>
-											<td>Comprehensive Personalization</td>
-										</tr>
-										<tr>
-											<td>All Packages</td>
-											<td>Home Page</td>
-											<td>Comprehensive Personalization</td>
-										</tr>
-										<tr>
-											<td>All Packages</td>
-											<td>Home Page</td>
-											<td>Comprehensive Personalization</td>
-										</tr>
-									</tbody>
+									<p style="margin-top:30px;text-align:center">Enter either your phone number or email, or both. Enter NA if not applicable.</p>
+									<form method="post" action="#">
+										<div class="field half first" style="margin-bottom:20px">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" placeholder="First Last" required/>
+										</div>
+										<div class="field half" style="margin-bottom:20px">
+											<label for="phone">Phone Number</label>
+											<input type="tel" name="phone" id="phone" placeholder="(012) 345-6789" required/>
+										</div>
+										<div class="field half" style="margin-bottom:20px">
+											<label for="email">Email</label>
+											<input type="email" name="email" id="email" placeholder="foo.bar@email.mailbox" required/>
+										</div>
+										<div class="field half" style="margin-bottom:20px">
+											<label for="order">Order Number</label>
+											<input type="number" name="order" id="order" min="0111" max="9999" value="0111" 
+												placeholder="0000" style="color:#000000" required/>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Get Notification When Ready</a></li>
+										</ul>
+									</form>
 								</table>
 								<a href="#ordertracking" class="button scrolly" onclick="this.parentElement.parentElement.style.display='none';" 
 								style="float:right;margin-right:10px;">[hide]</a>
