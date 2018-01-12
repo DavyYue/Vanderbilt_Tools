@@ -96,7 +96,6 @@
 .tabcontent {
 	animation: fadeEffect 1s;
 	display: none;
-	padding: 6px 12px;
 	border: 3px solid rgb(195, 233, 255);
 	margin:  30px;
 	background-color: #1a425a;
