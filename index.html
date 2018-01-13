@@ -296,8 +296,25 @@
 										<li>In the newly opened page, copy the url, which should look something like this:</li>
 											<code style="width:50%;box-sizing: content-box">http://vanderbilt.bncollege.com/webapp/wcs/stores/servlet/TBListView?cm_mmc=RI-_-8021-_-A-_-1&storeId=65163&catalogId=10001&termMapping=Y&courseXml=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%3Ctextbookorder%3E%3Ccourses%3E%3Ccourse+dept%3D%22CS%22+num%3D%223251%22+sect%3D%221%22+term%3D%22W18%22%2F%3E%3Ccourse+dept%3D%22ENGM%22+num%3D%222210%22+sect%3D%221%22+term%3D%22W18%22%2F%3E%3Ccourse+dept%3D%22CS%22+num%3D%223265%22+sect%3D%221%22+term%3D%22W18%22%2F%3E%3Ccourse+dept%3D%22CS%22+num%3D%222212%22+sect%3D%221%22+term%3D%22W18%22%2F%3E%3Ccourse+dept%3D%22ENGM%22+num%3D%222160%22+sect%3D%222%22+term%3D%22W18%22%2F%3E%3Ccourse+dept%3D%22ENGM%22+num%3D%222160%22+sect%3D%222%22+term%3D%22W18%22%2F%3E%3C%2Fcourses%3E%3C%2Ftextbookorder%3E</code>
 										<li>Paste the url in the box below and click the button</li>
+										<form method="post" action="#">
+											<div class="field half first" style="margin-bottom:20px">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" placeholder="First Last" required/>
+											</div>
+											<div class="field half" style="margin-bottom:20px">
+												<label for="email">Email</label>
+												<input type="email" name="email" id="email" placeholder="foo.bar@email.mailbox" required/>
+											</div>
+											<div class="field half" style="margin-bottom:20px">
+												<label for="url">URL</label>
+												<input type="text" name="url" id="url" placeholder="http://vanderbilt.bncollege.com/webapp/wcs/stores/servlet/TBListView?..." required/>
+											</div>
+											<ul class="actions">
+												<li><a href="" class="button submit">Get Cheap Books</a></li>
+											</ul>
+										</form>
 									</ol>
-
+									
 								</table>
 								<a href="#cheapbooks" class="button scrolly" onclick="this.parentElement.parentElement.style.display='none';" 
 								style="float:right;margin-right:10px;">[hide]</a>
